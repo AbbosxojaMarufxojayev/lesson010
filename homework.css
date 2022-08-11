@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --yashil: rgb(81, 245, 6);
+    --gold: gold;
+    --red: red;
+    --radius: 6px;
+    --border: none;
+    --kenglik1: 80px; 
+    --boyiga1: 34px;
+    --rang: #FFF;
+    --kenglik2: 50px;
+    --kenglik3: 70px;
+    --rang2: black;
+}
+.title{
+    text-align: center;
+}
+.table{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+thead th{
+    padding: 25px;
+}
+.table td{
+    padding: 8px;
+}
+tbody tr{
+    width: 80%;
+    height: 70px;
+    text-align: center;
+}
+.btn{
+    width: var(--kenglik1);
+    height: var(--boyiga1);
+    background-color: var(--yashil);
+    border: var(--border);
+    border-radius: var(--radius);
+    color: var(--rang);
+}
+.btn2{
+    width: var(--kenglik2);
+    height: var(--boyiga1);
+    border-radius: var(--radius);
+    background-color: var(--gold);
+    color: var(--rang2);
+    border: var(--border);
+}
+.btn3{
+    width: var(--kenglik3);
+    height: var(--boyiga1);
+    border-radius: var(--radius);
+    background-color: var(--red);
+    color: var(--rang);
+    border: var(--border);
+}
+.table tbody tr:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.055);
+}
+.table tbody tr:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.13);
+}
